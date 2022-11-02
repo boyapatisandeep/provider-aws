@@ -18,10 +18,5 @@
         run: |
          pwd
          ls
-         curl https://google.com
-         docker --version
-         git --version
-         make --version 
-         go version
-         helm version
-         kubebuilder --version
+         make build
+         
